@@ -1,44 +1,80 @@
-# Biolu Bajomo
+# Bioluwaosi Bajomo
 
-SOC Analyst | Threat Detection | Incident Response | SIEM | Cloud Security
+Security Operations | Detection Engineering | Incident Response | Cloud Security
 
-Security operations specialist focused on detecting real attack behavior, investigating alerts, and building practical detections.
-
-I document every investigation and lab here as proof of skill — not theory.
+I design detection logic, investigate authentication abuse, analyze endpoint telemetry, and document structured incident response workflows across Windows, Linux, and cloud environments.
 
 ---
 
 ## Core Capabilities
-- Log analysis (Windows, Linux, Cloud)
-- Alert triage & incident investigation
-- Threat hunting & anomaly detection
-- Detection engineering (Sigma, YARA, queries)
-- Cloud attack detection (AWS, IAM, OAuth abuse)
-- Incident response & containment
-- Python & Bash automation
-- MITRE ATT&CK mapping
+
+• Investigate authentication anomalies (Windows, Linux, Cloud)  
+• Analyze endpoint telemetry (Sysmon, Security Logs)  
+• Detect brute-force, credential stuffing, and account takeover activity  
+• Correlate multi-source logs for timeline reconstruction  
+• Translate investigations into Sigma detection rules  
+• Develop repeatable incident response playbooks  
+• Automate triage using Python and Bash  
+
+---
+
+## Detection Focus Areas
+
+### Windows Endpoint
+- 4624 / 4625 authentication analysis  
+- Process creation and parent-child abuse  
+- Office → PowerShell execution patterns  
+- Registry persistence monitoring  
+
+### Cloud Identity & IAM
+- Suspicious API activity  
+- Privilege escalation attempts  
+- OAuth abuse detection  
+- Geolocation anomaly analysis  
+
+### Network Behavior
+- Beaconing detection  
+- Repeated outbound connection patterns  
+- Command-and-control traffic analysis  
+
+---
+
+## Detection Engineering
+
+Sigma rules authored for:
+
+- RDP brute-force detection  
+- Encoded PowerShell execution  
+- Suspicious Office child processes  
+
+Focused on behavioral detection logic, signal clarity, and false-positive reduction.
+
+---
+
+## Automation
+
+Log triage utilities for:
+
+- Failed login aggregation  
+- Suspicious parent-child process detection  
+- Log parsing for investigation efficiency  
 
 ---
 
 ## Portfolio
 
-Hands-on investigations, detections, and reports:
+Structured SOC investigation repository:  
+https://github.com/officialbiolu1/soc-analyst-portfolio
 
-- SOC Lab Environment Setup
-- Log Analysis & Brute-Force Detection
-- Network Traffic Forensics (Wireshark/tcpdump)
-- Incident Response Case Reports
-- Detection Rule Library (Sigma/YARA)
-- Cloud Attack Scenarios
+---
 
-👉 https://github.com/officialbiolu1/soc-analyst-portfolio
+## Connect
+
+LinkedIn:  
+https://www.linkedin.com/in/biolu-bajomo-2b6630189  
 
 ---
 
 ## Current Focus
-Detection Engineering • DFIR • Cloud Security • Automation
 
----
-
-## Contact
-LinkedIn: www.linkedin.com/in/x-i-2b6630189
+Detection Engineering • DFIR • Cloud Security Monitoring • SOC Automation

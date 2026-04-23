@@ -1,70 +1,59 @@
-# Bioluwaosi Bajomo
+👋 Hi, I'm Bajomo Bioluwaosi
 
-Security Operations | Detection Engineering | Incident Response | Cloud Security
+🎯 Aspiring SOC Analyst (Entry Level) focused on threat detection, log analysis, and incident investigation using hands-on cybersecurity labs.
 
-I design detection logic, investigate authentication abuse, analyze endpoint telemetry, and document structured incident response workflows across Windows, Linux, and cloud environments.
+I’ve built practical experience through SOC simulations on TryHackMe, where I analyze attack patterns, investigate logs, and document findings using structured reporting approaches.
 
----
+🔍 What I Work On
 
-## Core Capabilities
+* Investigating simulated security alerts in SOC lab environments
+* Analyzing Windows Event Logs and basic network traffic
+* Identifying common attack behaviors such as brute force and suspicious PowerShell activity
+* Mapping observations to MITRE ATT&CK techniques (basic level)
+* Writing simple investigation notes and detection ideas
 
-• Investigate authentication anomalies (Windows, Linux, Cloud)  
-• Analyze endpoint telemetry (Sysmon, Security Logs)  
-• Detect brute-force, credential stuffing, and account takeover activity  
-• Correlate multi-source logs for timeline reconstruction  
-• Translate investigations into Sigma detection rules  
-• Develop repeatable incident response playbooks  
-• Automate triage using Python and Bash  
+🧠 Skills
 
----
+Security Operations
 
-## Detection Focus Areas
+* Log Analysis (Windows Event Logs, Sysmon basics)
+* Incident Investigation (lab-based scenarios)
+* Alert Triage (basic severity understanding)
 
-### Windows Endpoint
-- 4624 / 4625 authentication analysis  
-- Process creation and parent-child abuse  
-- Office → PowerShell execution patterns  
-- Registry persistence monitoring  
+Tools
 
-### Cloud Identity & IAM
-- Suspicious API activity  
-- Privilege escalation attempts  
-- OAuth abuse detection  
-- Geolocation anomaly analysis  
+* Splunk (basic search and filtering)
+* Wireshark (packet inspection fundamentals)
+* PowerShell (basic command usage)
+* Linux CLI (navigation and log viewing)
 
-### Network Behavior
-- Beaconing detection  
-- Repeated outbound connection patterns  
-- Command-and-control traffic analysis  
+Knowledge Areas
 
----
+* Networking basics (TCP/IP, DNS, HTTP)
+* Active Directory fundamentals
+* Common attack types (brute force, credential abuse basics)
 
-## Detection Engineering
+🧪 Practical Labs
 
-Sigma rules authored for:
+* Investigated brute force login attempts in simulated environments
+* Reviewed suspicious PowerShell activity patterns
+* Analyzed failed login and account lockout scenarios
+* Completed Active Directory attack and defense labs on TryHackMe
 
-- RDP brute-force detection  
-- Encoded PowerShell execution  
-- Suspicious Office child processes  
+🛠️ What I’m Building
 
-Focused on behavioral detection logic, signal clarity, and false-positive reduction.
+* Improving my ability to interpret logs in real SOC-style scenarios
+* Practicing structured incident write-ups
+* Learning how detection rules are designed
 
----
+🎯 Career Goal
+To start in an entry-level SOC Analyst role where I can develop real-world experience in monitoring, detection, and incident response.
 
-## Automation
+📫 Contact 
 
-Log triage utilities for:
-
-- Failed login aggregation  
-- Suspicious parent-child process detection  
-- Log parsing for investigation efficiency  
-
----
-
-## Portfolio
-
-Structured SOC investigation repository:  
-https://github.com/officialbiolu1/soc-analyst-portfolio
+LinkedIn:  
+https://www.linkedin.com/in/biolu-bajomo-2b6630189  
+Email: officialbiolu@gmail.com
 
 ---
 
@@ -75,6 +64,3 @@ https://www.linkedin.com/in/biolu-bajomo-2b6630189
 
 ---
 
-## Current Focus
-
-Detection Engineering • DFIR • Cloud Security Monitoring • SOC Automation
